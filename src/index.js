@@ -1,3 +1,9 @@
+/**
+ * Преобразует число в его строковое представление.
+ *
+ * @param {number} num Исходное число.
+ * @return {string} строковое представление числа.
+ */
 module.exports = function toReadable(number) {
     const ones = {
         0: "zero",
